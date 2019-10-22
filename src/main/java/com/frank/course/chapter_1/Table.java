@@ -24,7 +24,7 @@ public class Table implements Solution {
     public String getMarkDownTable() {
         StringBuilder result = new StringBuilder();
         ArrayList<ArrayList<Float>> table = this.getResult();
-        result.append("|除数\\被除数|");
+        result.append("|被除数\\除数|");
         for (Float i : types) {
             result.append(i);
             result.append('|');
