@@ -10,4 +10,8 @@ public class Unicycle extends Cycle {
     public int wheel() {
         return 1;
     }
+
+    public String balance() {
+        return "Unicycles are hard to ride!";
+    }
 }
