@@ -2,5 +2,10 @@
 
 > 上机报告在./reports内
 
-`mvn test`
+### Run tests
+
+`mvn test`  
+
+### Build an Run
+
 `mvn package; cd target/class; java com.frank.course.App`
